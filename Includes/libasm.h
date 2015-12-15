@@ -1,0 +1,23 @@
+#ifndef LIBASM_H
+
+# define LIBASM_H
+
+# include "libft.h"
+
+void    fta_bzero(void *s, int n);
+char    *fta_strcat(char *s1, const char *s2);
+int     fta_isalpha(int c);
+int     fta_isdigit(int c);
+int     fta_isalnum(int c);
+int     fta_isascii(int c);
+int     fta_isprint(int c);
+int     fta_toupper(int c);
+int     fta_tolower(int c);
+int     fta_puts(char *s);
+int     fta_strlen(const char *s);
+void    *fta_memset(void *s, int c, int n);
+void    *fta_memcpy(void *dest, const void *src, int n);
+void    *fta_strdup(const char *s);
+void    fta_cat(int fd);
+
+#endif
